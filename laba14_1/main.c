@@ -97,7 +97,7 @@ int main()
     {
         //типізація
         int size_of_array = 0, unique_of_max = 0, unique_of_min = 0, index_max = 0, index_min = 0, difference = 0, equality = 0;
-        char stop[5], clean_string = NULL;
+        char stop[5], clean_string;
 
         //ввід розміру масиву
         printf("Enter size of array (natural number): ");
